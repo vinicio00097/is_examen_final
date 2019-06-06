@@ -4,6 +4,10 @@ import java.util.Arrays;
 
 public class PascalTriangle {
 
+    public static void main(String[] args){
+        System.out.println(new PascalTriangle().build(-5));
+    }
+
     public String build(int levels) {
         StringBuilder stringBuilder = new StringBuilder();
         
