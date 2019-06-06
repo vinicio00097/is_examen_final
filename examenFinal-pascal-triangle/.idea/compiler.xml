@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="examenFinal-pascal-triangle" target="1.8" />
+      <module name="examenFinal-pascal-triangle" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

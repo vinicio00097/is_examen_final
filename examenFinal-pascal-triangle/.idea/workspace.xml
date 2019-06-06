@@ -80,8 +80,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="212" />
     <option name="y" value="91" />
-    <option name="width" value="974" />
-    <option name="height" value="555" />
+    <option name="width" value="1853" />
+    <option name="height" value="789" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -157,7 +157,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559786121831" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559788973960" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -188,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PascalTriangle">
+  <component name="RunManager" selected="JAR Application.examenFinal-pascal-triangle-1.0.jar">
     <configuration name="PascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gt.edu.umg.ingenieria.sistemas.is.examenfinal.pascal.triangle.PascalTriangle" />
       <module name="examenFinal-pascal-triangle" />
@@ -213,12 +213,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="examenFinal-pascal-triangle-1.0.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/examenFinal-pascal-triangle-1.0.jar" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.PascalTriangle" />
       <item itemvalue="JUnit.PascalTriangleTest" />
+      <item itemvalue="JAR Application.examenFinal-pascal-triangle-1.0.jar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.examenFinal-pascal-triangle-1.0.jar" />
         <item itemvalue="Application.PascalTriangle" />
         <item itemvalue="Application.PascalTriangle" />
         <item itemvalue="Application.PascalTriangle" />
