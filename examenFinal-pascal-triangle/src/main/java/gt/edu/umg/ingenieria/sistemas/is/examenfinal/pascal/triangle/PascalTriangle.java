@@ -1,20 +1,34 @@
 package gt.edu.umg.ingenieria.sistemas.is.examenfinal.pascal.triangle;
 
+import org.omg.CORBA.INTERNAL;
+
 import java.util.Arrays;
 
 public class PascalTriangle {
 
     public static void main(String[] args){
-        System.out.println(new PascalTriangle().build(-5));
+        System.out.println(new PascalTriangle().build(Integer.MAX_VALUE));
     }
 
     public String build(int levels) {
         StringBuilder stringBuilder = new StringBuilder();
-        
-        if (levels <= 0) {            
+
+        if (levels < 0) {
             return Arrays.toString(new long[0]);
         }
-        
+
+        if(levels==0){
+            return  Arrays.toString(new long[]{0});
+        }
+
+        if(levels==Integer.MAX_VALUE){
+            return Arrays.toString(new long[]{-2});
+        }
+
+        if(levels>5000){
+            return Arrays.toString(new long[]{-1});
+        }
+
         long[] previousLevel = new long[]{1};
 
         stringBuilder.append(Arrays.toString(previousLevel));

@@ -46,12 +46,11 @@ public class PascalTriangleTest {
 
         // then
         assertEquals("Test #1 FAILED!!!", actualResult, expectedResult);
-        //assertEquals("Test #1 FAILED!!!",actualResult instanceof Boolean, expectedResult);
     }
 
     @Test
     public void negativeInput_emptyOutput() {
-        System.out.println("TEST #1 - negativeInput_emptyOutput");
+        System.out.println("TEST #2 - negativeInput_emptyOutput");
 
         // given
         int input = -5;
@@ -62,6 +61,51 @@ public class PascalTriangleTest {
 
         // then
         assertEquals("Test #2 FAILED!!!", actualResult, expectedResult);
-        //assertEquals("Test #1 FAILED!!!",actualResult instanceof Boolean, expectedResult);
+    }
+
+    @Test
+    public void zeroInput_zeroOutput() {
+        System.out.println("TEST #3 - zeroInput_zeroOutput");
+
+        // given
+        int input = 0;
+        String expectedResult = Arrays.toString(new long[]{0});
+
+        // when
+        String actualResult = pascalTriangle.build(input);
+
+        // then
+        assertEquals("Test #3 FAILED!!!", actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void tooLongInput_negativeOneOutput() {
+        System.out.println("TEST #4 - tooLongInput_negativeOneOutput");
+
+        // given
+        int input = 5100;
+        String expectedResult = Arrays.toString(new long[]{-1});
+
+        // when
+        String actualResult = pascalTriangle.build(input);
+
+        // then
+        assertEquals("Test #4 FAILED!!!", actualResult, expectedResult);
+    }
+
+    @Test
+    public void maxIntInput_negativeTwoOutput() {
+        System.out.println("TEST #5 - maxIntInput_negativeTwoOutput");
+
+        // given
+        int input = Integer.MAX_VALUE;
+        String expectedResult = Arrays.toString(new long[]{-2});
+
+        // when
+        String actualResult = pascalTriangle.build(input);
+
+        // then
+        assertEquals("Test #5 FAILED!!!", actualResult, expectedResult);
     }
 }
